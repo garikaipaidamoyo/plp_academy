@@ -34,3 +34,17 @@
     h2 {
       color: #333;
     }
+
+    .technology,
+    .nature1,
+    .nature2,
+    .nature3,
+    .food1,
+    .food2,
+    .food3 {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    
