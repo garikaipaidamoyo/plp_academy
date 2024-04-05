@@ -1,0 +1,8 @@
+# Open the file in write mode ('w')
+with open('my_file.txt', 'w') as file:
+    # Write three lines of text to the file
+    file.write("This is line 1\n")
+    file.write("Line 2 with numbers: 12345\n")
+    file.write("Third line here\n")
+
+print("File created and content written successfully.")
