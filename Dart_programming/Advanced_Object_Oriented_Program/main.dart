@@ -1,6 +1,6 @@
-// Import the student.dart and teacher.dart files
-import 'student.dart';
-import 'teacher.dart';
+// Import the Student.dart and Teacher.dart files
+import 'Student.dart';
+import 'Teacher.dart';
 
 void main() {
   // Create a student object
@@ -10,8 +10,8 @@ void main() {
   Teacher teacher1 = Teacher('Jane Smith', 35, 'Mathematics');
 
   // Print student's information
-  student1.printInfo();
+  student1.printStudentInfo();
 
   // Print teacher's information
-  teacher1.printInfo();
+  teacher1.printTeacherInfo();
 }
